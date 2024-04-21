@@ -1,0 +1,27 @@
+.mainWrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.mainWrapper>p{
+    font-size: 1.2rem;
+    font-weight: 600;   
+}
+.table{
+    height: 80vh;
+    overflow: auto;
+    margin-top: 2rem;
+    width: 60vw;
+}
+
+.headingRow{
+    background-color: rgb(88, 88, 244);
+    border-radius: 6px;
+    position: sticky;
+    top: 0;
+}
+
+.headingRow>p{
+    color: #fff;
+    font-weight: 600;
+}
